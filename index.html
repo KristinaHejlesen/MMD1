@@ -9,9 +9,46 @@
 
 <body>
     <header>
-        <h1>Rold Skov Orienteringsklub</h1>
-        <nav></nav>
         <button class="logind">LOG IND</button>
+        <img src="./assets/img/RoldSkovOKLogo.png" alt="Rold Skov Orienteringsklub logo" width="80px">
+        <nav>
+            <div class="dropdownmenu">
+                <button>O-løb</button>
+                <div class="dropdown indhold">
+                    <a href="./InfoOmOlob.html">Infomation om O-løb</a>
+                    <a href="./OLobForFamilier.html">O-løb for familier</a>
+                    <a href="#">Baner</a>
+                    <a href="#">Kort</a>
+                    <a href="#">O-teknisk træning</a>
+                    <a href="#">Træningsløbskort</a>
+                    <a href="#">Banelægger instrukser</a>
+                </div>
+            </div>
+            <div class="dropdownmenu">
+                <button>Arrangementer</button>
+                <div class="dropdown indhold">
+                    <a href="./Arrangementer.html">Info om arrangementer</a>
+                    <a href="#">Løb og stævner</a>
+                    <a href="#">Kalender</a>
+                </div>
+            </div>
+            <div class="dropdownmenu">
+                <button>Praktisk</button>
+                <div class="dropdown indhold">
+                    <a href="./PraktiskInformation.html">Praktisk Information</a>
+                    <a href="#">Startsteder</a>
+                    <a href="#">Fakta, konti mv</a>
+                    <a href="#">Vedtægter</a>
+                    <a href="#">Referater</a>
+                    <a href="#">Privatlivspolitik</a>
+                </div>
+            </div>
+            <a href="./NytMedlem.html">Nyt Medlem</a>
+            <a href="./Seniorklubben.html">Seniorklub</a>
+            <a href="./OmKlubben.html">Om Klubben</a>
+            
+        </nav>
+        <h1>Rold Skov Orienteringsklub</h1>
         <p>Det er for alle <br>også for dig og jer! <br>
         O-løb er motion for hjerte og hjerne</p>
     </header>
@@ -25,8 +62,8 @@
             <br>
             Vi har Rold Skov som baghave, der byder på en smuk natur oplevelse. Der er mange fordele ved at komme ud i skoven og
             opleve det sociale fælleskab, som vi værner om i Klubben.</p>
-            <button>Info om O-løb</button>
-            <img src="" alt="Mand og dreng der står ude i en skov og kigger på ned på et kort. (Kilde:) ">
+            <button><a href="./InfoOmOlob.html">Info om O-løb</a></button>
+            <img src="./assets/img/OrienteringsløbFarOgDrengKiggerPaaKort.jpg" alt="Mand og dreng der står ude i en skov og kigger på ned på et kort. (Kilde: Colourbox, leverandør #2418)" width="500px">
             
 
         </Article>
@@ -37,8 +74,8 @@
             <span class="fremhævet tekst">Fælleskabet</span>.
             <br>
             Du kan også læse mere om de andre spændende arrangementer der foregår i klubben.</p>
-            <button>arrangementer</button>
-            <img src="" alt="børn og voksne sidder ved et bord inde i klubhuset. De hygger og spiser sammen. (kilde: Rold Skov Orienteringsklub)">
+            <button><a href="./Arrangementer.html">Arrangementer</a></button>
+            <img src="./assets/img/OrienteringsklubFaellesspisning.jpg" alt="Fællesspisningbørn og voksne sidder ved et bord inde i klubhuset. De hygger og spiser sammen. (kilde: Rold Skov Orienteringsklub)" width="500px">
         </article>
         <article>
             <h2>Vil du melde dig ind i klubben?</h2>
@@ -47,12 +84,8 @@
             Du finder også svar på de oftest stillede spørgsmål, men du er selvfølgelig altid velkommen til at kontakte klubben.
             <br>
             Vi står altid klar til at hjælpe dig og din familie i gang med orienteringsløb, der er plads til alle.</p>
-            <button>Meld dig ind</button>
-            <img src="" alt="Billede af glade børn i forskellige aldre og en voksen der løber på en vej, med en skov i baggrunden. (kilde: Colourbox, skriv hvem der har taget billedet her)">
-        </article>
-        <article>
-            <h2></h2>
-            <p></p>
+            <button><a href="./NytMedlem.html">Meld dig ind</a></button>
+            <img src="./assets/img/OrienteringsklubMelddigind.jpg" alt="Billede af glade børn i forskellige aldre og en voksen der løber på en vej, med en skov i baggrunden. (kilde: Colourbox, Arne Trautmann)" width="500px">
         </article>
         <!--skal nyheder være en article eller skal vi vælge og kalde det en sektion??, da det vel ikke rigtig er en artikel men mere en info boks-->
         <section>
@@ -82,7 +115,8 @@
                         umiddelbart ved siden af oplysningsskiltene som altid står der, eller printes fra hjemmesiden
                         på <a href="https://roldskovok.dk/index.php?page=sider/t-loeb_kort.php.Starten">https://roldskovok.dk/index.php?page=sider/t-loeb_kort.php.Starten</a> går fra Tveden P-pladsen.Der vil være mulighed
                         for følgende baner:Begynder 2,9 km 14 posterLet 3,1 km 13 posterMellemsvær 3,2 km 14 posterKort svær 4,0 km 12
-                        posterLang svær 7,5 km 21 posterJulestjernen 8,6 km 16 posterGlædelig jul fraNiss'erne (Trine, Johan og Michael)</p>
+                        posterLang svær 7,5 km 21 posterJulestjernen 8,6 km 16 poster.
+                        <br>Glædelig jul fraNiss'erne (Trine, Johan og Michael)</p>
                     </div>
 
 
@@ -91,9 +125,9 @@
         </section>
         <article>
             <h2>Sponsorere</h2>
-            <!--skal de sættes ind som img eller har vi en svg?-->
-            <img src="" alt="">
-            <img src="" alt="">
+            <!--skal de sættes ind som img eller har vi en svg? og skal vi lave det som et link?-->
+            <a href="https://www.spard.dk/"><img src="./assets/img/logoSparekassen.png" alt="Sparekassen logo" width="250px"></a>
+            <img src="./assets/img/LogoFriliv.jpg" alt="Friliv.dk logo" width="250px">
         </article>
     </main>
     <footer>
@@ -106,6 +140,8 @@
             <span class="understreg">e-mail: bestyrelsen@roldskovok.dk</span>
         </p>
         <p>
+            KONTAKT OS:
+            <br>
             Stævnekalender
             <br>
             stævnetilmelding
