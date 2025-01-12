@@ -1,0 +1,53 @@
+/*Typografi*/
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Epilogue", serif;
+}
+
+h1{
+    color: var(--DeepForest);
+    font-weight: bold;
+
+}
+.headerh1{
+    color: white;
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+p{
+
+}
+
+/*general*/
+/* box-sizing: boder-box gør at når der tilføjes padding til en boks er det indvendingt i boksen*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Her er tilføjet de farver vi ønsker at bruge på websitet*/
+:root{
+    --DeepForest: #2E4600;
+    --PaleStone: #F5F1E4;
+    --FernLeaf: #588C42;
+    /*har vi brugt denne farve?*/
+    --FreshMint: #82B56D;
+
+}
+/*header Forsiden*/
+/*billedet skal vendes om???*/
+.headerforsiden{
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
