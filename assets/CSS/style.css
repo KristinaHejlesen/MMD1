@@ -3,6 +3,7 @@
 
 *{
     font-family: "Epilogue", serif;
+    font-size: 16px;
 }
 
 h1{
@@ -15,14 +16,19 @@ h1{
 }
 
 h2{
+        color: var(--DeepForest);
+        font-weight: bold;
 
 }
 
+/*har vi brugt en h3??*/
 h3{
 
 }
-
+/*rem udregnet efter rem=ønsket px/px font er sat til*/
+/*Vi har i vores mock-up valgt 20px til brødskrift... måske er dette lidt for stort, da man normalt vælger melle 12-18?*/
 p{
+    font-size: 1.25rem;
 
 }
 
@@ -49,5 +55,37 @@ p{
     background-image: url(../img/header.jpg);
     background-size: cover;
     background-position: center;
-    
+}
+header{
+    height: 30rem;
+    width: auto;
+}
+/*NAV*/
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+/*drop down menu*/
+/*Anvender postion relativ på vores div .dropdownmenu for at indholdet med links (.dropdownindhold) står lige under*/
+.dropdownmenu{
+    position: relative;
+}
+
+.dropdownmenu:hover .dropdownindhold{
+    display: block;
+}
+/*width sætter på 100% for at få samme bredde på indholdet som menuknappen. overflow: auto for at man kan scrolle hvis der ikke er plads til hele dropdown menuen*/
+.dropdownindhold{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    overflow: auto;
+}
+/*link sættes til display block, for at få link (a) til at stå under hianden som et block element, da (a) er et inline-element og derfor pr default placeres på linje med hinanden*/
+.dropdownindhold a{
+    display: block;
+}
+.navbutton{
+    min-width: 130px;
+
 }
