@@ -9,6 +9,7 @@
 h1{
     color: var(--DeepForest);
     font-weight: bold;
+    font-size: 2.5rem;
 
 }
 .headerh1{
@@ -47,6 +48,7 @@ p{
     --FernLeaf: #588C42;
     /*har vi brugt denne farve?*/
     --FreshMint: #82B56D;
+    /*vi burde også her oprette en generel for padding, så vi kan tilføje den samme padding alle steder.*/
 
 }
 /*header Forsiden*/
@@ -55,11 +57,22 @@ p{
     background-image: url(../img/header.jpg);
     background-size: cover;
     background-position: center;
-}
-header{
     height: 30rem;
     width: auto;
 }
+
+header{
+    height: 8rem;
+    background-color: var(--DeepForest);
+
+}
+/*border-radius: 0 er tilføjet for at lave en firkantet knap*/
+.logind{
+    background-color: black;
+    color: white;
+    border-radius: 0;
+}
+
 /*NAV*/
 nav{
     display: flex;
@@ -80,12 +93,42 @@ nav{
     position: absolute;
     min-width: 160px;
     overflow: auto;
+    background-color: var(--DeepForest);
 }
 /*link sættes til display block, for at få link (a) til at stå under hianden som et block element, da (a) er et inline-element og derfor pr default placeres på linje med hinanden*/
 .dropdownindhold a{
     display: block;
 }
+nav a{
+    color: white;
+}
 .navbutton{
     min-width: 130px;
 
+}
+.pforsiden{
+    color: white;
+}
+
+/**/
+/*main*/
+button{
+    background-color: #2E4600;
+    border-radius: 20%;
+    padding: 1rem;
+}
+button a{
+    color: white;
+}
+
+
+/*footer*/
+/**/
+/**/
+footer{
+    background-color: var(--DeepForest);
+    display: flex;
+}
+footer p{
+    color: white;
 }
