@@ -64,6 +64,10 @@ p{
 header{
     height: 8rem;
     background-color: var(--DeepForest);
+    /*
+    grid-template-columns: 1fr 1fr 1fr;*/
+    display: flex;
+    
 
 }
 /*border-radius: 0 er tilføjet for at lave en firkantet knap*/
