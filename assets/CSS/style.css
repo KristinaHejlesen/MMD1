@@ -123,6 +123,7 @@ nav a{
 }
 .pforsiden{
     color: white;
+    padding: 1rem;
 }
 
 /* thomas koder her */
@@ -189,6 +190,7 @@ article{
     display: grid;
     grid-template-columns: 6.25rem 18.5rem 18.5rem 6.25rem 1fr;
     grid-template-rows: 5rem 1fr 4rem;
+    padding: 3rem;
 }
 .articleoverskrift{
     grid-column: 2 / 4;
@@ -206,6 +208,10 @@ article{
 .articlebutton{
     grid-column: 2 / 2;
     grid-row: 3 / 4;
+}
+
+p{
+    padding-top: 1rem;
 }
 /**/
 /*scroll boks forsiden*/
