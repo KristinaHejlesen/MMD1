@@ -1,0 +1,195 @@
+/*Typografi*/
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Epilogue", serif;
+    font-size: 16px;
+}
+
+h1{
+    color: var(--DeepForest);
+    font-weight: bold;
+    font-size: 2.5rem;
+
+}
+.headerh1{
+    color: white;
+}
+
+h2{
+        color: var(--DeepForest);
+        font-weight: bold;
+
+}
+
+
+h3{
+
+}
+/*rem udregnet efter rem=ønsket px/px font er sat til*/
+/*Vi har i vores mock-up valgt 20px til brødskrift... måske er dette lidt for stort, da man normalt vælger melle 12-18?*/
+p{
+    font-size: 1.25rem;
+
+}
+
+/*general*/
+/* box-sizing: boder-box gør at når der tilføjes padding til en boks er det indvendingt i boksen*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Her er tilføjet de farver vi ønsker at bruge på websitet*/
+:root{
+    --DeepForest: #2E4600;
+    --PaleStone: #F5F1E4;
+    --FernLeaf: #588C42;
+    /*har vi brugt denne farve?*/
+    --FreshMint: #82B56D;
+    /*vi burde også her oprette en generel for padding, så vi kan tilføje den samme padding alle steder.*/
+
+}
+/*header Forsiden*/
+/*billedet skal vendes om???*/
+.headerforsiden{
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+    width: auto;
+}
+
+header{
+    height: 8rem;
+    background-color: var(--DeepForest);
+
+}
+/*border-radius: 0 er tilføjet for at lave en firkantet knap*/
+.logind{
+    background-color: black;
+    color: white;
+    border-radius: 0;
+}
+
+/*NAV*/
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+/*drop down menu*/
+/*Anvender postion relativ på vores div .dropdownmenu for at indholdet med links (.dropdownindhold) står lige under*/
+.dropdownmenu{
+    position: relative;
+}
+
+.dropdownmenu:hover .dropdownindhold{
+    display: block;
+}
+/*width sætter på 100% for at få samme bredde på indholdet som menuknappen. overflow: auto for at man kan scrolle hvis der ikke er plads til hele dropdown menuen*/
+.dropdownindhold{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    overflow: auto;
+    background-color: var(--DeepForest);
+}
+/*link sættes til display block, for at få link (a) til at stå under hianden som et block element, da (a) er et inline-element og derfor pr default placeres på linje med hinanden*/
+.dropdownindhold a{
+    display: block;
+}
+nav a{
+    color: white;
+}
+.navbutton{
+    min-width: 130px;
+
+}
+.pforsiden{
+    color: white;
+}
+
+/**/
+/*knapper*/
+/**/
+
+button{
+    background-color: #2E4600;
+    border-radius: 15px;
+    padding: 1rem;
+    width: 9.7rem;
+    font-size: 12px;
+    
+    
+}
+button a{
+    color: white;
+}
+/*Forsiden*/
+
+/**/
+/*scroll boks forsiden*/
+/**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*undersider*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+/**/
+/**/
+footer{
+    background-color: var(--DeepForest);
+    display: flex;
+}
+footer p{
+    color: white;
+}
