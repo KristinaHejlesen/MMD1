@@ -10,8 +10,7 @@ h1{
     color: var(--DeepForest);
     font-weight: bold;
     font-size: 2.5rem;
-    padding: 1rem;
-
+    padding: 2rem 1rem 7rem 1rem;
 }
 .headerh1{
     color: white;
@@ -64,10 +63,7 @@ p{
 }
 
 header{
-    height: 8rem;
     background-color: var(--DeepForest);
-  
-
 }
 
 
@@ -77,6 +73,8 @@ header{
     color: white;
     border-radius: 0;
     padding: 1rem;
+    width: 6rem;
+    margin: 1rem;
     
    
 }
@@ -124,6 +122,12 @@ nav a{
 .pforsiden{
     color: white;
     padding: 1rem;
+    font-size: 2.5rem;
+}
+.pforsidenlille{
+    font-size: 1.25rem;
+    color: white;
+    padding: 1rem;
 }
 
 /* thomas koder her */
@@ -135,7 +139,7 @@ nav a{
 }
 .navforsiden{
     align-items: center;
-    gap: 10rem;
+    gap: 5rem;
     text-decoration: none;
 }
 
