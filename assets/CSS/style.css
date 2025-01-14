@@ -98,39 +98,188 @@ header{
 
 /*NAV*/
 
-nav{
+.dropdownmenu a,
+.dpm-item {
+    margin-right: 3rem;
+} 
+
+nav {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
 }
-/*drop down menu*/
-/*Anvender postion relativ på vores div .dropdownmenu for at indholdet med links (.dropdownindhold) står lige under*/
-.dropdownmenu{
+nav img {
+    height: 50px;
+}
+.dropdownmenu {
+    display: flex;
+}
+.dpm-item {
     position: relative;
 }
-
-.dropdownmenu:hover .dropdownindhold{
+.dpm-item a {
+    text-decoration: none;
+    color: white;
     display: block;
 }
-/*width sætter på 100% for at få samme bredde på indholdet som menuknappen. overflow: auto for at man kan scrolle hvis der ikke er plads til hele dropdown menuen*/
-.dropdownindhold{
+
+.dropdown {
     display: none;
     position: absolute;
-    min-width: 160px;
-    overflow: auto;
-    background-color: var(--DeepForest);
+    top: 100%;
+    left: 0;
+    background-color: #2E4600;
+    border-radius: 4px;
+    z-index: 10;
 }
-/*link sættes til display block, for at få link (a) til at stå under hianden som et block element, da (a) er et inline-element og derfor pr default placeres på linje med hinanden*/
-.dropdownindhold a{
-    display: block;
-    border-radius: 2rem;
-}
-nav a{
-    color: white;
-}
-.navbutton{
-    min-width: 130px;
 
+.logind {
+    padding: 10px 20px;
+    background-color: #000000;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
 }
+
+.dropdownmenu {
+display: flex;
+align-items: center;
+}
+
+.dpm-item {
+position: relative;
+display: flex;
+align-items: center;
+}
+
+.dpm-item a, .dropdownmenu > a {
+text-decoration: none;
+color: white;
+padding: 8px 12px;
+display: block;
+}
+
+.dropdown {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+background-color: #2E4600;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+z-index: 10;
+}
+
+.dropdown a {
+padding: 8px 12px;
+}
+
+/*  */
+/* Nav hover effekter */
+/*  */
+.dpm-item a:hover {
+    background-color: #2E4600;
+    border-radius: 4px;
+}
+
+.dropdown a:hover {
+    background-color: #2E4600;
+}
+
+.dpm-item:hover .dropdown {
+    display: block;
+}
+
+.logind:hover {
+    background-color: #4b4b4b;
+}
+
+.dpm-item a:hover, .dropdownmenu > a:hover {
+    background-color: #2E4600;
+    border-radius: 4px;
+    }
+
+    .dropdown a:hover {
+        background-color: #588C42;
+        }
+        
+        .nav-item:hover .dropdown {
+        display: block;
+        }
+
+        @media screen and (min-width: 1000px) {
+            .mobilnav{
+                display: none;
+            }
+        }
+
+        /* FJERN PC NAV OG PÅ MED MOBIL NAV */
+       @media screen and (max-width: 1000px) {
+
+        .pcnav{
+            display: none;
+        }
+
+        /* MOBILNAV */
+        .mobilnav{
+            display: flex;
+            align-items: center;
+        }
+
+        .burgerdropdown {
+            position: relative;
+            display: inline-block;
+          }
+      
+          .burgerdropdown button {
+            background-color: rgba(0, 0, 0, 0);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            z-index: 1000;
+          }
+      
+          .burgerdropdown-menu a{
+            text-decoration: none;
+          }
+
+          .burgerdropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: white;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-top: 5px;
+            z-index: 1000;
+            list-style: none;
+            padding: 10px;
+            max-width: 300px;
+          }
+      
+          .burgerdropdown-menu li {
+            padding: 8px 12px;
+            cursor: pointer;
+          }
+      
+          .burgerdropdown:focus-within .burgerdropdown-menu {
+            display: block;
+          } 
+
+          .logind{
+            padding: 0.5rem;
+            margin-left: 120px;
+          }
+
+       }
+
 .pforsiden{
     color: white;
     padding: 1rem;
@@ -142,42 +291,6 @@ nav a{
     padding: 1rem;
 }
 
-/* thomas koder her */
-.headeraligned{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-   
-}
-/*gap gør at vores design ikke virker responsivt!!!*/
-
-/* .navforsiden{
-    align-items: center;
-    text-decoration: none;
-}
-
-nav a{
-   display: block; 
-} */
-header {
-    display: grid;
-    grid-template-columns: 0.7fr repeat(autofit, 1) 1.5fr;
-  }
-
-nav a {
-    display: flex;
-    /*justify-content: space-between; eller space-around*/
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 1rem 0 0;
-  }
-  
-  nav {
-    /* grid-column: 2 / 5;
-    grid-row: 2; */
-  }
-
-
 
 /*header på undersider*/
 .headeralignedside{
@@ -187,14 +300,6 @@ nav a {
 }
 
 /*er ikke responsivt, så menuen er kodet fast og flytter ikke med?*/
-.navundersider{
-    display: flex;
-    justify-content: space-between;    
-}
-.navundersider a{
-    display: flex;
-    justify-content: center;
-}
 
 
 
