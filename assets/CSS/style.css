@@ -194,8 +194,6 @@ button a{
 
 article{
     display: grid;
-    /*
-    grid-template-columns: 6.25rem 18.5rem 18.5rem 6.25rem 1fr;*/
     grid-template-columns: 0.7fr 2fr 2fr 0.7fr 1fr;
     grid-template-rows: autofit autofit autofit autofit;
     padding: 3rem;
@@ -210,9 +208,6 @@ article{
 }
 
 .articleimg{
-    /*
-    grid-column: 5 / 5;
-    grid-row: 2 / 3;*/
     grid-column: 5 / 5;
     grid-row: 2 / 5;
 }
