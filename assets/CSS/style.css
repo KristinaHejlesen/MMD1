@@ -315,7 +315,7 @@ img{
 /**/
 .scroll-bar {
     margin: 0;
-    width: 500px;
+    width: auto;
     height: 600px;
     overflow: scroll;
     background-color: white;
@@ -323,10 +323,14 @@ img{
     border-style: solid;
     border-width: 0.5rem;
     padding: 0.5rem;
+    margin: 6rem;
 }
 
 .nyhednavn {
     background-color: green;
+    padding: 1rem;
+}
+.h2nyheder{
     padding: 1rem;
 }
 
@@ -427,6 +431,8 @@ th {
 
 .midtentekst{
     text-align: center;
+    padding: 1rem;
+    padding-top: 3rem;
 }
 .billederomklubben{
     padding: 4rem;
@@ -441,7 +447,26 @@ th {
     padding: 1rem;
 
 }
+#sparekassen{
+    height: 11rem;
+    width: 16rem;
+    object-fit: cover;
+}
+.friliv{
+    height: 11rem;
+}
+ article img{
+    height: 34rem;
+    width: 34rem;
+    object-fit: cover;
+  
+}
+ aside img {
+     height: 34rem;
+     width: 34rem;
+     object-fit: cover;
 
+ }
 
 
 
