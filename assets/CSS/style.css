@@ -267,7 +267,7 @@ img{
 .article1{
     display: grid;
     grid-template-columns: 0.7fr 2fr 2fr 0.7fr 1fr;
-    grid-template-rows: autofit autofit autofit autofit;
+    grid-template-rows: auto auto auto auto auto;
     padding: 5rem;
 }
 .articleoverskrift1{
@@ -292,7 +292,7 @@ img{
 .article2 {
     display: grid;
     grid-template-columns: 1fr 0.7fr 2fr 2fr 0.7fr;
-    grid-template-rows: autofit autofit autofit autofit;
+    grid-template-rows: auto auto auto auto auto;
     padding: 5rem;
 }
 
@@ -569,4 +569,57 @@ footer{
 footer p{
     color: white;
     padding: 2rem;
+}
+
+/**/
+@media screen and (max-width:1000px){
+    .article1 {
+            grid-template-columns:  1fr 1fr;
+            
+        }
+                .articleoverskrift1 {
+                    grid-column: 1 / 1;
+                    grid-row: 1 / 1;
+                }
+        
+                .articletekst1 {
+                    grid-column: 1 / 1;
+                    grid-row: 2 / 3;
+                }
+        
+                .articleimg1 {
+                    grid-column: 1 / 1;
+                    grid-row: 4 / 5;
+                }
+        
+                .articlebutton1 {
+                    grid-column: 1 / 1;
+                    grid-row: 3 / 4;
+                }
+                .article2 {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: auto auto auto auto auto;
+                    padding: 5rem;
+                }
+        
+                .articleoverskrift2 {
+                    grid-column: 1 / 1;
+                    grid-row: 1 / 1;
+                }
+        
+                .articletekst2 {
+                    grid-column: 1 / 1;
+                    grid-row: 2 / 3;
+                }
+        
+                .articleimg2 {
+                    grid-column: 1 / 1;
+                    grid-row: 4 / 5;
+                }
+        
+                .articlebutton2 {
+                    grid-column: 1 / 1;
+                    grid-row: 3 / 4;
+                }
 }
