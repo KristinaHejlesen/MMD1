@@ -4,15 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seniorklubben</title>
+    <link rel="stylesheet" href="./assets/CSS/style.css">
 </head>
 <body>
+    <header>
+        <div class="headeralignedside">
+        <a href="./index.html"><img class="logo" src="./assets/img/RoldSkovOKLogo.png" alt="Rold Skov Orienteringsklub logo" width="80px"></a>
+        <nav class="navundersider">
+            <div class="dropdownmenu">
+                <a class="navbutton" href="#">O-løb</a>
+                
+                <div class="dropdownindhold">
+                    <a href="./InfoOmOlob.html">Infomation om O-løb</a>
+                    <a href="./OLobForFamilier.html">O-løb for familier</a>
+                    <a href="#">Baner</a>
+                    <a href="#">Kort</a>
+                    <a href="#">O-teknisk træning</a>
+                    <a href="#">Træningsløbskort</a>
+                    <a href="#">Banelægger instrukser</a>
+                </div>
+            </div>
+            <div class="dropdownmenu">
+                <a class="navbutton" href="#">Arrangementer</a>
+                
+                <div class="dropdownindhold">
+                    <a href="./Arrangementer.html">Info om arrangementer</a>
+                    <a href="#">Løb og stævner</a>
+                    <a href="#">Kalender</a>
+                </div>
+            </div>
+            <div class="dropdownmenu">
+                <a class="navbutton" href="#">Praktisk</a>
+                
+                <div class="dropdownindhold">
+                    <a href="./PraktiskInformation.html">Praktisk Information</a>
+                    <a href="#">Startsteder</a>
+                    <a href="#">Fakta, konti mv</a>
+                    <a href="#">Vedtægter</a>
+                    <a href="#">Referater</a>
+                    <a href="#">Privatlivspolitik</a>
+                </div>
+            </div>
+            <a href="./NytMedlem.html">Nyt Medlem</a>
+            <a href="./Seniorklubben.html">Seniorklub</a>
+            <a href="./OmKlubben.html">Om Klubben</a>
+        </nav>
+        <button class="logind">LOG IND</button>
+        </div>
+    </header>
     <main>
         <h1>Seniorklubben RSOK'erne</h1>
         <article>
-            <h2>Seniorklubben</h2>
-            <p>RSOK'kerne er klubbens seniorafdeling, som mødes den første mandag i hver måned (undtagen juli og august) i tidsrummet 10-13:00, hvor vi går en tur. <br> Som regel et sted i Rold Skov, hvor der er flere af seniorerne, der er gode for en spændende historie undervejs, men vi har også været i Aalborg for at se gavlmalerier, på besøg i Klosteret og sejlet i kano på Lindenborg Å. <br> Undervejs på turen stopper vi og spiser den medbragte madpakke - mens snakken går livligt. <br> Er du medlem af klubben, så er det ganske gratis at deltage, og vi garanterer nogle gode timer fyldt med naturoplevelser og røverhistorier. <br> Har du lyst til at deltage, så kontakt RSOK'ker-koordinatoren.</p>
+            <h2 class="articleoverskrift">Seniorklubben</h2>
+            <p class="articletekst">RSOK'kerne er klubbens seniorafdeling, som mødes den første mandag i hver måned (undtagen juli og august) i tidsrummet 10-13:00, hvor vi går en tur. <br> Som regel et sted i Rold Skov, hvor der er flere af seniorerne, der er gode for en spændende historie undervejs, men vi har også været i Aalborg for at se gavlmalerier, på besøg i Klosteret og sejlet i kano på Lindenborg Å. <br> Undervejs på turen stopper vi og spiser den medbragte madpakke - mens snakken går livligt. <br> Er du medlem af klubben, så er det ganske gratis at deltage, og vi garanterer nogle gode timer fyldt med naturoplevelser og røverhistorier. <br> Har du lyst til at deltage, så kontakt RSOK'ker-koordinatoren.</p>
             <figure>
-                <img src="./assets/img/orienteringsklubRSOKerne.jpg" alt="RSOK'erne samlet (kilde: RSOK hjemmeside)">
+                <img class="articleimg" src="./assets/img/orienteringsklubRSOKerne.jpg" alt="RSOK'erne samlet (kilde: RSOK hjemmeside)">
             </figure>
         </article>
         <section>
@@ -24,6 +70,45 @@
             <img src="./assets/img/orienteringsklubRSOKerneSejler.jpg" alt="RSOK'erne på sejltur (kilde: RSOK hjemmeside)">
             <img src="./assets/img/orienteringsklubRSOKerneVedBaenk.jpg" alt="RSOK'erne sidder ved en bænk (kilde: RSOK hjemmeside)">
         </section>
+        <article>
+            <h2>Sponsorere</h2>
+            <!--skal de sættes ind som img eller har vi en svg? og skal vi lave det som et link?-->
+            <a href="https://www.spard.dk/"><img src="./assets/img/logoSparekassen.png" alt="Sparekassen logo" width="250px"></a>
+            <img src="./assets/img/LogoFriliv.jpg" alt="Friliv.dk logo" width="250px">
+        </article>
     </main>
+    <footer>
+        <p>Adresse:
+            <br>
+            ROSK's klubhus
+            <br>
+            Mosevej 9, 9520 Skørping
+            <br>
+            <span class="understreg">e-mail: bestyrelsen@roldskovok.dk</span>
+        </p>
+        <p>
+            KONTAKT OS:
+            <br>
+            Stævnekalender
+            <br>
+            stævnetilmelding
+            <br>
+            RSOK medlemsliste m.v.
+            <br>
+            Send en mail til:
+            <br>
+            <span class="understreg">o-service.dk</span>
+        </p>
+        <!--her skal huske at lave links-->
+        <p>
+            Mangler du adgangskode 
+            <br>
+            til O-service
+            <br>
+            send en mail til:
+            <br>
+            <span class="understreg">support@roldskovok.dk</span>   
+        </p>
+    </footer>
 </body>
 </html>

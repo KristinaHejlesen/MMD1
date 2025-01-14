@@ -160,7 +160,12 @@ nav a{
 
 /*er ikke responsivt, så menuen er kodet fast og flytter ikke med?*/
 .navundersider{
-    
+    display: flex;
+    justify-content: space-between;    
+}
+.navundersider a{
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -223,6 +228,9 @@ button a{
 
 img{
     border-radius: 50px;
+}
+.articleimg {
+    width: 600px;
 }
 
 /*Forsiden*/
@@ -292,7 +300,10 @@ article{
 
 /*undersider*/
 
-
+h1{
+    display: flex;
+    justify-content: center;    
+}
 
 
 
