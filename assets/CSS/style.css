@@ -331,6 +331,49 @@ img{
 
 
 /*tilmeldingsblanket*/
+.indmeldingsblanket {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 16px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.Indmeld {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 16px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.tilmeld {
+    background-color: #2E4600;
+    color: #FFFFFF;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 40%;
+}
+
+.tilmeld:hover {
+    background-color: #82B56D;
+}
 
 
 
