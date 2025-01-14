@@ -518,7 +518,7 @@ form{
 .formh2{
     grid-column: 2 /3 ;
     grid-row: 1 / 2;
-    padding: 1rem;
+    padding: 4rem 0 2rem 1rem;
 }
 .formp{
     grid-column: 2 / 3;
