@@ -31,6 +31,8 @@ h3{
 /*Vi har i vores mock-up valgt 20px til brødskrift... måske er dette lidt for stort, da man normalt vælger melle 12-18?*/
 p{
     font-size: 1.25rem;
+    padding-top: 1rem;
+    line-height: 150%;
 
 }
 
@@ -143,8 +145,18 @@ nav a{
     text-decoration: none;
 }
 
-
-
+/*header på undersider*/
+.headeralignedside{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navundersider{
+    gap: 7rem;
+    
+  
+   
+}
 
 
 
@@ -216,9 +228,7 @@ article{
     grid-row: 3 / 4;
 }
 
-p{
-    padding-top: 1rem;
-}
+
 /**/
 /*scroll boks forsiden*/
 /**/
