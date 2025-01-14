@@ -54,6 +54,11 @@ p{
     /*vi burde også her oprette en generel for padding, så vi kan tilføje den samme padding alle steder.*/
 
 }
+
+body{
+    background-color: var(--PaleStone);
+}
+
 /*header Forsiden*/
 /*billedet skal vendes om???*/
 .headerforsiden{
@@ -151,6 +156,7 @@ nav a{
     align-items: center;
     justify-content: space-between;
 }
+
 /*er ikke responsivt, så menuen er kodet fast og flytter ikke med?*/
 .navundersider{
     gap: 7rem; 
