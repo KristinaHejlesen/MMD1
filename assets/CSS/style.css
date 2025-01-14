@@ -572,7 +572,28 @@ footer p{
 }
 
 /**/
-@media screen and (max-width:1000px){
+@media screen and (max-width:700px){
+    h1 {
+            
+            font-size: 2rem;
+            
+        }
+    
+        
+    
+        h2 {
+            font-size: 2rem;
+            
+    
+        }
+    
+    
+        h3 {
+            font-size: 2rem;}
+        p{
+            font-size: 1rem;
+        }
+
     .article1 {
             grid-template-columns:  1fr 1fr;
             
@@ -621,5 +642,8 @@ footer p{
                 .articlebutton2 {
                     grid-column: 1 / 1;
                     grid-row: 3 / 4;
+                }
+                img{
+                    padding-top: 4rem;
                 }
 }
