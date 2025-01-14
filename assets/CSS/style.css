@@ -467,11 +467,40 @@ th {
      object-fit: cover;
 
  }
+/*placering af indhold/tilmeldingsblanket Nytmedlem i midten*/
+.articleindmeld{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(autofit, 5);
+}
+form{
+    grid-column: 2 /3;
+    grid-row: 3 / 4;
+}
+.formh2{
+    grid-column: 2 /3 ;
+    grid-row: 1 / 2;
+    padding: 1rem;
+}
+.formp{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    padding: 1rem;
+}
+.formkontigent{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    padding-top: 4rem;
+}
+.formtabel{
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
+.formp3{
+    grid-column: 2 / 3;
+    grid-row: 6 / 7 ;
 
-
-
-
-
+}
 
 /*lokal nav*/
 
