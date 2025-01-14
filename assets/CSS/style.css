@@ -308,10 +308,26 @@ img{
     grid-column: 3 / 4;
     grid-row: 3 / 4;
 }
+
 /**/
 /*scroll boks forsiden*/
 /**/
+.scroll-bar {
+    margin: 0;
+    width: 500px;
+    height: 600px;
+    overflow: scroll;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-width: 0.5rem;
+    padding: 0.5rem;
+}
 
+.nyhednavn {
+    background-color: green;
+    padding: 1rem;
+}
 
 
 
