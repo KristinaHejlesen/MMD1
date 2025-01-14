@@ -14,6 +14,7 @@ h1{
 }
 .headerh1{
     color: white;
+    
 }
 
 h2{
@@ -62,7 +63,7 @@ body{
 /*header Forsiden*/
 /*billedet skal vendes om???*/
 .headerforsiden{
-    background-image: url(../img/header.jpg);
+    background-image: url(../img/header2.png);
     background-size: cover;
     background-position: center;
     height: 30rem;
@@ -424,11 +425,9 @@ th {
 
 /*undersider*/
 
-h1{
-    display: flex;
-    justify-content: center;    
+.midtentekst{
+    text-align: center;
 }
-
 
 
 
@@ -446,7 +445,7 @@ h1{
 }
 
 
-h2 {
+.h2lokalnav{
     margin-bottom: 50px;
     color: var(--DeepForest);
     text-align: start;
