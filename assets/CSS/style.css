@@ -258,7 +258,7 @@ img{
     width: 600px;
 }
 
-/*Forsiden*/
+/*side layout*/
 
 .article1{
     display: grid;
@@ -423,13 +423,24 @@ th {
 
 
 
-/*undersider*/
+/* diverse styles undersider*/
 
 .midtentekst{
     text-align: center;
 }
+.billederomklubben{
+    padding: 4rem;
+}
+.billederomklubben img{
+    padding: 1rem;
+}
+.Sponsorere{
+    padding: 4rem;
+}
+.Sponsorere img{
+    padding: 1rem;
 
-
+}
 
 
 
