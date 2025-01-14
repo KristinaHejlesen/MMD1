@@ -161,7 +161,7 @@ nav a{
 } */
 header {
     display: grid;
-    grid-template-columns: 0.7fr autofit 1.5fr;
+    grid-template-columns: 0.7fr repeat(autofit, 1) 1.5fr;
   }
 
 nav a {
@@ -235,7 +235,17 @@ nav a {
 /**/
 /*knapper*/
 /**/
+.button{
+    background-color: #2E4600;
+        border-radius: 15px;
+        padding: 1rem;
+        margin-top: 2rem;
+        width: 9.7rem;
+        font-size: 12px;
+        color: white;
 
+}
+/*denne skal slettes når vi har lavet alle knapper rigtigt!*/
 button{
     background-color: #2E4600;
     border-radius: 15px;
@@ -572,7 +582,7 @@ footer p{
 }
 
 /**/
-@media screen and (max-width:700px){
+@media screen and (max-width:900px){
     h1 {
             
             font-size: 2rem;
