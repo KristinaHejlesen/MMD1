@@ -376,6 +376,23 @@ label {
 }
 
 
+/*kontaktboks*/
+table {
+    width: 50%;
+    border-collapse: separate 5px;
+    margin: 20px 0;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: left;
+    color: white;
+}
+
+th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-weight: lighter;
+    background-color: #2E4600;
+}
 
 
 
