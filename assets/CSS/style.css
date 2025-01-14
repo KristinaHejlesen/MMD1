@@ -26,6 +26,9 @@ h2{
 
 
 h3{
+    color: var(--DeepForest);
+    font-weight: bold;
+    font-size: 2.5rem;
 
 }
 /*rem udregnet efter rem=ønsket px/px font er sat til*/
@@ -467,6 +470,31 @@ th {
      object-fit: cover;
 
  }
+ /**/
+ /*Ø-løb for familier*/
+ /**/
+ .besøgosh2{
+    text-align: center;
+    padding: 2rem;
+ }
+ /*centere billedet*/
+ .imgfamilier{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+ }
+/*centere hele article med kontaktinformation*/
+ .kontakttabel{
+      margin: auto;
+      width: 50%;
+      padding: 2rem
+ }
+ .h2kontakt{
+    padding-top: 3rem;
+ }
+
 /*placering af indhold/tilmeldingsblanket Nytmedlem i midten*/
 .articleindmeld{
     display: grid;
@@ -533,37 +561,3 @@ footer p{
     color: white;
     padding: 2rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Senior */
