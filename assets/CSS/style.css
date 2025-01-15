@@ -828,9 +828,7 @@ justify-content: space-between;
                     grid-column: 1 / 1;
                     grid-row: 3 / 4;
                 }
-                img{
-                    padding-top: 4rem;
-                }
+              
 
 /* Forside */
 
@@ -847,3 +845,7 @@ justify-content: space-between;
                 }
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4e8d94fb220d422ee236ff897de9f8a4c34054f3
