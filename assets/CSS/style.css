@@ -71,12 +71,13 @@ body{
     background-size: cover;
     background-position: center;
     height: 30rem;
-    width: auto;
+    width: 100vw;
 }
 
 header{
     background-color: var(--DeepForest);
     height: 7rem;
+    width: 100%;
 }
 
 /*log ind knap*/
@@ -229,6 +230,7 @@ padding: 8px 12px;
         .mobilnav{
             display: flex;
             align-items: center;
+            z-index: 1000;
         }
 
         .burgerdropdown {
@@ -243,6 +245,10 @@ padding: 8px 12px;
             border: none;
             cursor: pointer;
             border-radius: 5px;
+            z-index: 1000;
+          }
+
+          .burgermobil{
             z-index: 1000;
           }
       
@@ -762,4 +768,19 @@ footer p{
                 img{
                     padding-top: 4rem;
                 }
+
+/* Forside */
+
+                .headerh1{
+                    font-size: 30px;
+                    display: flex;
+                    text-align: center;
+                }
+                .pforsiden{
+                    transform: translateY(-60%);
+                }
+                .pforsidenlille{
+                    transform: translateY(-130%)
+                }
 }
+
