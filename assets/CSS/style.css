@@ -788,6 +788,10 @@ form{
         width: 17rem;
         height: 17rem;
     }
+    aside img{
+        width: 17rem;
+            height: 17rem;
+    }
     .article1 {
             grid-template-columns: 1fr;
             width: 100%;
