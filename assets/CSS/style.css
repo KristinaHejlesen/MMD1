@@ -87,7 +87,7 @@ header{
     color: white;
     border-radius: 0;
     padding: 1rem;
-    width: 6rem;
+    width: 7rem;
     margin: 1rem; 
 }
 
@@ -666,7 +666,27 @@ form{
 .container {
     padding: 20px;
     background-color: var(--FreshMint)
+  }
+ 
+  .opdagelse {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: left; /
+  }
+ 
+  .opdagelse img {
+    width: 90%;
+    height: 90%;
+border-radius: 1fr;
+justify-content: space-between;
 }
+ 
+ 
+  .opdagelse button {
+    background-color: var(--DeepForest);
+    cursor: pointer;
+   margin-top: -1.5rem;}
 
 
 .h2lokalnav{
@@ -680,17 +700,60 @@ form{
 
 
 
+
 /*footer*/
 /**/
 /**/
-footer{
-    background-color: var(--DeepForest);
+.footer {
     display: flex;
-    height: 25rem;
-}
-footer p{
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: var(--DeepForest);
     color: white;
-    padding: 2rem;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin-top: -1.1rem;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 20px;
+    min-width: 200px;
+}
+
+.footer-column h4 {
+    margin-bottom: 10px;
+    color: white;
+    text-transform: bold;
+    padding: 10px;
+}
+
+.footer-column p {
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+.footer-column a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+.social{
+    margin-right: 1fr;
+    justify-content: space-between;
+}
+
+.social img {
+    width: 45px;
+    height: 45px;
+    margin-left: 10%;
+    margin-right: 10%;
+    vertical-align: middle;
+    align-items: center;
 }
 
 /**/
@@ -784,3 +847,6 @@ footer p{
                 }
 }
 
+=======
+}
+>>>>>>> f832db817e56840bae6a27dc2113bc9c5a7aacae
