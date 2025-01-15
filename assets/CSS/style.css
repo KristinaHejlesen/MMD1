@@ -413,7 +413,7 @@ img{
 /*artikel 2 der vender omvendt i forhold til billede og tekst*/
 .article2 {
     display: grid;
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr;
     
     padding: 5rem;
 }
