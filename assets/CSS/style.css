@@ -440,15 +440,12 @@ img{
 /**/
 /*scroll boks forsiden*/
 /**/
-.nyheder {
-    margin: auto;
-    width: 50%;
-}
+
 
 
 .scroll-bar {
     margin: 0;
-    width: 50rem;
+    width: auto;
     height: 600px;
     overflow: scroll;
     background-color: white;
@@ -853,6 +850,8 @@ justify-content: space-between;
                 .pforsidenlille{
                     transform: translateY(-130%)
                 }
+              
+                 
 }
 
 <<<<<<< HEAD
