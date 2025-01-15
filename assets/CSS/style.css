@@ -602,10 +602,12 @@ th {
  .kontakttabel{
       margin: auto;
       width: 50%;
+      margin-bottom: 2rem;
  }
  .h2kontakt{
     padding-top: 3rem;
  }
+
 
  /*Seniorklubben*/
 
@@ -809,6 +811,7 @@ form{
                 .articleimg1 {
                     grid-column: 1 / 1;
                     grid-row: 4 / 5;
+                    margin-top: 2rem;
                 }
         
                 .articlebutton1 {
@@ -833,6 +836,7 @@ form{
                 .articleimg2 {
                     grid-column: 1 / 1;
                     grid-row: 4 / 5;
+                    margin-top: 2rem;
                 }
         
                 .articlebutton2 {
@@ -881,6 +885,9 @@ form{
                                     margin-top: 0;
                                     margin-bottom: 3rem;
                                 }
-                              
+                              .opdagelse img{
+                                width: 17rem;
+                                height: 17rem;
+                              }
 }
 
