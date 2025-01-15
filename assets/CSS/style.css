@@ -379,16 +379,17 @@ button a{
 img{
     border-radius: 50px;
 }
-
+/*
 .articleimg {
     width: 600px;
 }
-
+*/
 /*side layout*/
 
 .article1{
     display: grid;
-    grid-template-columns:  1fr;
+    grid-template-columns: 0.7fr 2fr 2fr 0.7fr 1fr;
+
   
     padding: 5rem;
 }
@@ -413,7 +414,7 @@ img{
 /*artikel 2 der vender omvendt i forhold til billede og tekst*/
 .article2 {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 0.7fr 2fr 2fr 0.7fr;
     
     padding: 5rem;
 }
@@ -778,9 +779,13 @@ justify-content: space-between;
         p{
             font-size: 1rem;
         }
-
+        
+    article img{
+        width: 17rem;
+        height: 17rem;
+    }
     .article1 {
-            grid-template-columns:  1fr 1fr;
+            grid-template-columns: 1fr;
             width: 100%;
         }
                 .articleoverskrift1 {
@@ -803,10 +808,8 @@ justify-content: space-between;
                     grid-row: 3 / 4;
                 }
                 .article2 {
-                    display: grid;
                     grid-template-columns: 1fr;
-                    grid-template-rows: auto auto auto auto auto;
-                    padding: 5rem;
+                    
                 }
         
                 .articleoverskrift2 {
