@@ -389,7 +389,7 @@ img{
 .article1{
     display: grid;
     grid-template-columns: 0.7fr 2fr 2fr 0.7fr 1fr;
-    grid-template-rows: auto auto auto auto auto;
+  
     padding: 5rem;
 }
 .articleoverskrift1{
@@ -414,7 +414,7 @@ img{
 .article2 {
     display: grid;
     grid-template-columns: 1fr 0.7fr 2fr 2fr 0.7fr;
-    grid-template-rows: auto auto auto auto auto;
+    
     padding: 5rem;
 }
 
