@@ -259,6 +259,7 @@ padding: 8px 12px;
             list-style: none;
             padding: 10px;
             max-width: 300px;
+            transform:translateX(-40%)
           }
       
           .burgerdropdown-menu li {
@@ -850,10 +851,10 @@ form{
                     text-align: center;
                 }
                 .pforsiden{
-                    transform: translateY(-60%);
+                    transform: translateY(-35%);
                 }
                 .pforsidenlille{
-                    transform: translateY(-130%)
+                    transform: translateY(-100%)
                 }
 
 
