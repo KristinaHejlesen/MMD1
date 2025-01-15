@@ -781,7 +781,7 @@ justify-content: space-between;
 
     .article1 {
             grid-template-columns:  1fr 1fr;
-            
+            width: 100%;
         }
                 .articleoverskrift1 {
                     grid-column: 1 / 1;
