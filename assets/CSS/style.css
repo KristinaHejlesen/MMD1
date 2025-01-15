@@ -751,14 +751,18 @@ form{
     justify-content: space-between;
 }
 
-.social img {
+.fa-brands{
+    font-size: 3rem;
+}
+
+/* .social i {
     width: 45px;
     height: 45px;
     margin-left: 10%;
     margin-right: 10%;
     vertical-align: middle;
     align-items: center;
-}
+} */
 
 /**/
 @media screen and (max-width:900px){
