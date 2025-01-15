@@ -346,10 +346,12 @@ padding: 8px 12px;
         font-size: 12px;
         color: white;
         border-color: #2E4600;
+        text-align: center;
 
 }
+
 /*denne skal slettes når vi har lavet alle knapper rigtigt!*/
-button{
+.button{
     background-color: #2E4600;
     border-radius: 15px;
     padding: 1rem;
@@ -357,37 +359,29 @@ button{
     width: 9.7rem;
     font-size: 12px;
     color: white;
-    
-    
-}
-button a{
-    color: white;
+    text-decoration: none;
 }
 
 
 /*billeder*/
 
 img{
-    border-radius: 50px;
+    border-radius: 3.2rem;
 }
-/*
-.articleimg {
-    width: 600px;
-}
-*/
+
+/**/
 /*side layout*/
 
 .article1{
     display: grid;
     grid-template-columns: 0.7fr 2fr 2fr 0.7fr 1fr;
-
-  
     padding: 5rem;
 }
 .articleoverskrift1{
     grid-column: 2 / 4;
     grid-row: 1 / 1;
 }
+
 .articletekst1{
     grid-column: 2 / 4;
     grid-row: 2 / 3;
