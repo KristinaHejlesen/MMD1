@@ -893,3 +893,26 @@ form{
                               }
 }
 
+.videoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video{
+    width: 40%;
+    padding-top: 2rem;
+}
+
+@media screen and (max-width: 900px) {
+    .videoContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    video{
+        width: 90%;
+        padding-top: 1rem;
+    }
+}
