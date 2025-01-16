@@ -128,8 +128,9 @@ nav img {
 
 .logind {
     padding: 10px 20px;
-    background-color: black;
+    background-color: rgb(39, 39, 39);
     border: none;
+    border-color: white;
     border-radius: 4px;
     color: white;
     cursor: pointer;
@@ -774,6 +775,7 @@ form{
 .fa-brands{
     font-size: 3rem;
 }
+
 
 /* mediaQ */
 
