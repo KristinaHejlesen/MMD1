@@ -376,8 +376,6 @@ img{
 /*scroll boks forsiden*/
 /**/
 
-
-
 .scroll-bar {
     margin: 0;
     width: auto;
@@ -400,7 +398,6 @@ img{
     padding: 1rem;
 }
 
-
 /*tilmeldingsblanket*/
 .indmeldingsblanket {
     width: 100%;
@@ -414,6 +411,10 @@ img{
 
 .Indmeld {
     text-align: center;
+}
+
+.indmeldingsblanket p {
+    padding-bottom: 1rem;
 }
 
 input[type="text"] {
@@ -440,6 +441,12 @@ label {
     border-radius: 10px;
     cursor: pointer;
     width: 40%;
+}
+
+@media screen and (max-width: 900px) {
+    .tilmeld{
+        padding-right: 4.2rem;
+    }
 }
 
 .tilmeld:hover {
