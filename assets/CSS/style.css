@@ -297,72 +297,21 @@ padding: 8px 12px;
     justify-content: space-between;
 }
 
-/*er ikke responsivt, så menuen er kodet fast og flytter ikke med?*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**/
 /*knapper*/
 /**/
 .button{
-    background-color: #2E4600;
+    background-color: var(--DeepForest);
         border-radius: 15px;
         padding: 1rem;
         margin-top: 2rem;
         width: 9.7rem;
         font-size: 12px;
         color: white;
-        border-color: #2E4600;
         text-align: center;
-
+        text-decoration: none;
 }
-
-/*denne skal slettes når vi har lavet alle knapper rigtigt!*/
-.button{
-    background-color: #2E4600;
-    border-radius: 15px;
-    padding: 1rem;
-    margin-top: 2rem;
-    width: 9.7rem;
-    font-size: 12px;
-    color: white;
-    text-decoration: none;
-}
-
 
 /*billeder*/
 
@@ -501,7 +450,8 @@ label {
 /*kontaktboks*/
 table {
     width: 50%;
-    border-collapse: separate 5px;
+    border-collapse: separate;
+    border-spacing: 5px;
     margin: 20px 0;
     font-size: 16px;
     font-weight: lighter;
@@ -515,33 +465,6 @@ th {
     font-weight: lighter;
     background-color: #2E4600;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* diverse styles undersider*/
@@ -665,13 +588,12 @@ form{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    justify-items: left; /
+    justify-items: left;
   }
  
   .opdagelse img {
     width: 90%;
     height: 90%;
-    border-radius: 1fr;
     justify-content: space-between;
 }
  
@@ -701,11 +623,6 @@ form{
 }
 
 
-
-
-
-
-
 /*footer*/
 /**/
 /**/
@@ -729,7 +646,6 @@ form{
 .footer-column h4 {
     margin-bottom: 10px;
     color: white;
-    text-transform: bold;
     padding: 10px;
 }
 
@@ -748,7 +664,6 @@ form{
 }
 
 .social{
-    margin-right: 1fr;
     justify-content: space-between;
 }
 
@@ -914,5 +829,27 @@ video{
     video{
         width: 90%;
         padding-top: 1rem;
+    }
+}
+.renoveringH2{
+    padding-top: 0.5rem;
+    margin-left: 4rem;
+}
+
+.renoveringP{
+    width: 70%;
+    margin-left: 4rem;
+}
+
+@media screen and (min-width: 900px) {
+    
+    .renoveringBilleder{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .renoveringBilleder img{
+        margin: 0 10px;
     }
 }
