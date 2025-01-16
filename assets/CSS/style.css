@@ -95,7 +95,7 @@ nav {
     justify-content: space-between;
     padding: 10px 20px;
     background-color: rgba(0, 0, 0, 0);
-    color: #fff;
+    color: white;
 }
 /*log ind knap*/
 /*border-radius: 0 er tilføjet for at lave en firkantet knap*/
@@ -121,14 +121,14 @@ nav img {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #2E4600;
+    background-color: var(--DeepForest);
     border-radius: 4px;
     z-index: 10;
 }
 
 .logind {
     padding: 10px 20px;
-    background-color: #000000;
+    background-color: black;
     border: none;
     border-radius: 4px;
     color: white;
@@ -161,7 +161,7 @@ display: none;
 position: absolute;
 top: 100%;
 left: 0;
-background-color: #2E4600;
+background-color: var(--DeepForest);
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 border-radius: 4px;
 z-index: 10;
@@ -175,12 +175,12 @@ padding: 8px 12px;
 /* Nav hover effekter */
 /*  */
 .dpm-item a:hover {
-    background-color: #2E4600;
+    background-color: var(--DeepForest);
     border-radius: 4px;
 }
 
 .dropdown a:hover {
-    background-color: #2E4600;
+    background-color: var(--DeepForest);
 }
 
 .dpm-item:hover .dropdown {
@@ -192,12 +192,12 @@ padding: 8px 12px;
 }
 
 .dpm-item a:hover, .dropdownmenu > a:hover {
-    background-color: #2E4600;
+    background-color: var(--DeepForest);
     border-radius: 4px;
     }
 
     .dropdown a:hover {
-        background-color: #588C42;
+        background-color: var(--FernLeaf);
         }
         
         .nav-item:hover .dropdown {
@@ -393,7 +393,7 @@ img{
 }
 
 .nyhednavn {
-    background-color: green;
+    background-color: var(--FreshMint);
     padding: 1rem;
 }
 .h2nyheder{
@@ -433,7 +433,7 @@ label {
 }
 
 .tilmeld {
-    background-color: #2E4600;
+    background-color: var(--DeepForest);
     color: #FFFFFF;
     padding: 12px;
     border: none;
@@ -443,7 +443,7 @@ label {
 }
 
 .tilmeld:hover {
-    background-color: #82B56D;
+    background-color: var(--FreshMint);
 }
 
 
@@ -462,8 +462,8 @@ table {
 th {
     border: 1px solid #ddd;
     padding: 8px;
-    font-weight: lighter;
-    background-color: #2E4600;
+    font-weight: bolder;
+    background-color: var(--DeepForest);
 }
 
 
@@ -546,7 +546,6 @@ th {
 .articleindmeld{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(autofit, 5);
 }
 form{
     grid-column: 2 /3;
@@ -655,7 +654,7 @@ form{
 }
 
 .footer-column a {
-    color: #fff;
+    color: white;
     text-decoration: none;
 }
 
@@ -808,6 +807,9 @@ form{
                               }
 }
 
+
+
+
 .videoContainer{
     display: flex;
     justify-content: center;
@@ -852,4 +854,9 @@ video{
     .renoveringBilleder img{
         margin: 0 10px;
     }
+
+    .knap1, .knap2, .knap3{
+        transform: translateY(-100%)
+    }
+
 }
