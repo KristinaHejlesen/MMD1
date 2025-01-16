@@ -907,8 +907,11 @@ form{
                               }
 }
 
-
-
+/* Header hover på NON-Dropdown */
+.pcnav a:hover{
+   color: white;
+   text-shadow: 0 0 10px white; 
+}
 
 .videoContainer{
     display: flex;
